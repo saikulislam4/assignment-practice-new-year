@@ -18,6 +18,13 @@
 
 }
 
+.primary_title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
 
 /* banner container style  */
 
@@ -68,12 +75,6 @@
     align-items: center;
 }
 
-.my_failures_title {
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 40px;
-}
 
 .my_failures_description {
     color: #444343;
@@ -90,6 +91,38 @@
     list-style: none;
     margin-bottom: 8px;
 }
-.my_failures_item ul li .check{
+
+.my_failures_item ul li .check {
     color: #16D887;
+}
+
+/* my plans section style  */
+.my_plans_container{
+    margin-bottom: 150px;
+}
+
+.plans_title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.plans_item_container{
+    display: flex;
+}
+
+.plan_item {
+    text-align: center;
+}
+
+.plan_item_title {
+    margin: 15px 0;
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan_item_description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
