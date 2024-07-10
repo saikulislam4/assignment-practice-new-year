@@ -158,3 +158,58 @@
 .positive_title{
     color: white;
 }
+
+/* footer section style start */
+
+.footer_section_contents{
+    display: flex;
+    gap: 250px;
+}
+.footer_section{
+    background: #000;
+    padding: 130px 0;
+    color: white;
+}
+.footer_title{
+    color: white;
+}
+.footer_description{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-weight:400;
+}
+.footer_contact{
+    margin-bottom: 15px;
+}
+.footer_contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 26px;
+    font-weight:400;
+}
+
+.footer_item ul{
+    display: flex;
+}
+.footer_social_link a{
+    margin-right: 15px;
+}
+
+.footer_contact input{
+    all: unset;
+    border: 1px solid rgb(198, 196, 196);
+    padding: 22px;
+    background: #000;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.btn_modified{
+    color: white;
+    background: #005FAC;
+}
+
