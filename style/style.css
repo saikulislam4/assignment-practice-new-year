@@ -97,7 +97,7 @@
 }
 
 /* my plans section style  */
-.my_plans_container{
+.my_plans_container {
     margin-bottom: 150px;
 }
 
@@ -106,7 +106,7 @@
     text-transform: capitalize;
 }
 
-.plans_item_container{
+.plans_item_container {
     display: flex;
 }
 
@@ -116,7 +116,7 @@
 
 .plan_item_title {
     margin: 15px 0;
-    color:#151414;
+    color: #151414;
     font-size: 30px;
     font-weight: 700;
 }
@@ -125,4 +125,36 @@
     color: #737272;
     font-size: 25px;
     font-weight: 500;
+}
+
+/* keep positive section style start */
+
+.positive_container {
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 150px;
+    
+}
+
+.positive_gradient {
+    position: absolute;
+    height:100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    z-index: 1;
+    
+}
+.position_content{
+    position: relative;
+    z-index: 2;
+}
+.positive_title{
+    color: white;
 }
